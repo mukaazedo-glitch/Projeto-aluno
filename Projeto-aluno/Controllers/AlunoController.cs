@@ -16,7 +16,7 @@ namespace Projeto_aluno.Controllers
         public IActionResult Detalhes(int id)
         {
             ViewBag.Id = id;
-            ViewBag.Nome = "Aluno Selecionado (ID: " + id + ")";
+            ViewBag.Nome = "Murilo" Selecionado (ID: " + id + ")";
             ViewBag.Curso = "Análise e Desenvolvimento de Sistemas";
             ViewBag.Semestre = "3º Semestre";
 
