@@ -6,9 +6,9 @@ namespace Projeto_aluno.Controllers
     {
         public IActionResult Index()
         {
-            ViewBag.Nome = "Seu Nome Completo";
+            ViewBag.Nome = "Murilo";
             ViewBag.Curso = "Análise e Desenvolvimento de Sistemas";
-            ViewBag.Semestre = "3º Semestre";
+            ViewBag.Semestre = "1º Semestre";
 
             return View();
         }
